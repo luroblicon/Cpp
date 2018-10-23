@@ -1,0 +1,17 @@
+gcc -std=c99 -Werror -o main.ou main.c
+
+-std=c99 is to specify the stanndard used for compiling
+-Werror is used to stop the command in case any error is encounter 
+-o option used to specify the type of output file
+main.c is the file used to compile
+
+
+
+gcc -std=c89 -Wall -v -c main.c main.o
+-v logout of more information regarding the process
+-c stops compiling process when error encountered
+
+make 
+
+this produces the specific recipe specified\coded in the makefile 
+

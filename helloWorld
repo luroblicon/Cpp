@@ -1,0 +1,3 @@
+helloWorld.exe: helloWorld.c
+	gcc -o helloWorld.exe helloWorld.c
+
